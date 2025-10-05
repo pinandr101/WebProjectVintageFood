@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    font-family: Montserrat, sans-serif;
+    color: black;
+    font-size: 25px;
+}
+header {
+    background: linear-gradient(180deg, #EDA418, white);
+    overflow: hidden;
+}
+.left {
+    float: left;
+}
+.logotext {
+    font-weight: 1000;
+}
+.logodiv {
+    margin: 105px 600px 0 130px;
+}
+nav {
+    margin: 105px 0 0 0;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+nav ul li {
+    margin: 0 110px 0 0;
+}
+.buttontext {
+    font-weight: 700;
+}
+.hero {
+    display: flex;
+    align-items: center;
+}
+.herotext {
+    margin: 0 450px 0 200px;
+}
+.herotext1 {
+    font-weight: 900;
+    font-size: 32px;
+    margin: 0 0 50px 0;
+}
+.herotext2 {
+    font-size: 16px;
+    margin: 0 0 50px 0;
+}
+.order-oval {
+    width: 140px;
+    height: 60px;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    background-color: #E52626;   
+    border-radius: 35px;
+    position: relative;
+    padding: 15px;
+}
+.foodpic {
+    width: 450px;
+    height: 300px;
+}
+.order:hover {
+    background-color: #E54040;
+}
+.order:active {
+    background-color: #AA0000;
+}
+.menutext {
+    font-size: 45px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+
+}
+.menupics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+figcaption {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+}
+footer {
+    font-size: 20px;
+    background: linear-gradient(360deg, #EDA418, white);
+}
+.info ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.info ul li {
+    margin: 0 140px 0 0;
+}
+.links {
+    display: flex;
+    justify-content: center;
+}
+.linkpics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer {
+    padding: 0 0 80px 0;
+}
